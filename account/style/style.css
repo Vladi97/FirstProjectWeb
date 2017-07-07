@@ -33,7 +33,7 @@ header h1{
 	background: #fff;
 	box-shadow: 5px 5px 30px #999;
 	border-radius: 5px;
-	border: solid #fff;
+	border: solid #4B4B4B;
 }
 
 button {
@@ -75,7 +75,7 @@ input[type="text"], input[type="password"]{
 #cuerpo h3{
 	margin-top: 40px;
 	margin-left: 41%;
-	color: #fff;
+	color: #000;
 }
 
 #datos{
