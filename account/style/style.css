@@ -9,6 +9,8 @@ header{
 	height: 100px;
 	background: #242020;
 	color: #fff;
+	box-shadow: 5px 5px 30px #6A6E6F;
+	border-radius: 5px;
 }
 
 header img{
@@ -24,7 +26,6 @@ header h1{
 	float: left;
 	color: #fff;
 }
-
 
 #cuerpo{
 	height: 510px;
@@ -87,4 +88,29 @@ hr{
 
 #datos input[type="checkbox"]{
 	margin-left: 56%;
+}
+
+#profile{
+	height: 540px;
+	margin-top: 20px;
+	margin-left: 5%;
+	width: 90%;
+	box-shadow: 5px 5px 30px #6A6E6F;
+	border-radius: 5px;
+	border: solid #4B4B4B;
+}
+
+#foto{
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+	width:25%;
+	height:40%;
+}
+
+#profile_data{
+	float:left;
+	margin-left: 20px;
+	margin-top: 45px;
+	line-height: 30px;
 }
