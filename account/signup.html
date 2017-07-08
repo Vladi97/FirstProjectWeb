@@ -6,6 +6,11 @@
 		<meta name="descripcion" content="mecanica costa rica">
 		<title>Mechanic Network</title>
 		<link rel="stylesheet" href="style/style.css">
+		<script lenguaje="javascript">
+			function go(){
+				window.open(url, "login.html");
+			}
+		</script>
 	</head>
 	<body>
 		<header>
@@ -24,9 +29,9 @@
 				    <br>
 				    <input type="password" name="psw" placeholder = "Contraseña" required>
 				    <br>
-				    <input type="password" name="psw" placeholder = "Verificar contraseña" required>
+				    <input type="password" name="pswVer" placeholder = "Verificar contraseña" required>
 				    <br>
-				    <button type="submit">Guardar</button>
+				    <button onclick= "go()" type="submit">Guardar</button>
 				</section>
 		</section>
 	</body>
