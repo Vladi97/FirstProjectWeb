@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="style/style.css">
 		<script lenguaje="javascript">
 			function go(){
-				window.open("login.html");
+				window.open("file:///C:/Users/Usuario/Documents/GitHub/FirstProjectWeb/account/index.html");
 			}
 		</script>
 	</head>
@@ -21,16 +21,15 @@
 				<h3><center>Registro</center></h3>
 				<hr>
 				<section id = "datos">
-				    <input type="text" name="name" placeholder = "Nombre del taller" required>
-				    <br>
+				    <input type="text" name="name" placeholder = "Nombre" required>
+				    <input type="text" name="lastname" placeholder = "Apellido" required>
+				    <input type="text" name="birthday" placeholder = "Fecha de nacimiento" required>
 				    <input type="text" name="username" placeholder = "Nombre de usuario" required>
-				    <br>
+				    <input type="text" name="workshopname" placeholder = "Nombre del taller" required>				  
+				    <input type="text" name="address" placeholder = "Dirección del taller" required>
 				    <input type="email" name="correo" placeholder = "Correo" required>
-				    <br>
 				    <input type="password" name="psw" placeholder = "Contraseña" required>
-				    <br>
 				    <input type="password" name="pswVer" placeholder = "Verificar contraseña" required>
-				    <br>
 				    <button onclick= "go()" type="submit">Guardar</button>
 				</section>
 		</section>
