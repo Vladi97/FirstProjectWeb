@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="mecanica, mantenimiento, costa rica">
+		<meta name="descripcion" content="mecanica costa rica">
+		<title>Mechanic Network</title>
+		<link rel="stylesheet" href="style/style.css">
+		<script lenguaje="javascript">
+			function go(){
+				window.open("login.html");
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+				<img src="images/logo.png" width="50" height="50">
+				<h1>Mechanic Network</h1>
+		</header>
+		<section id = "cuerpo">
+				<h3><center>Registro</center></h3>
+				<hr>
+				<section id = "datos">
+				    <input type="text" name="name" placeholder = "Nombre del taller" required>
+				    <br>
+				    <input type="text" name="username" placeholder = "Nombre de usuario" required>
+				    <br>
+				    <input type="email" name="correo" placeholder = "Correo" required>
+				    <br>
+				    <input type="password" name="psw" placeholder = "Contraseña" required>
+				    <br>
+				    <input type="password" name="pswVer" placeholder = "Verificar contraseña" required>
+				    <br>
+				    <button onclick= "go()" type="submit">Guardar</button>
+				</section>
+		</section>
+	</body>
+</html>
