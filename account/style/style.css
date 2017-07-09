@@ -133,8 +133,24 @@ p{
 
 .maintenance{
 	float: right;
-	margin-left:3%;
-	width: 20%; 
+	margin-right:3%;
+	height: 30%;
+	text-decoration: none;
+	width: 15%; 
+	margin-top: 1%;
+	background-color: #4CAF50;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+	border: solid #000;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.maintenance:hover{
+	background: black;
+	color: white;
 }
 
 #foto{
