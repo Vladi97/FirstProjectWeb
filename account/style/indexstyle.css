@@ -18,10 +18,85 @@ header{
 	float: right;
 }
 
+input[type="text"]{
+	width: 50%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    margin-left: 6%;
+}
+
+#search a{
+	width: 20%;
+	padding: 12px 20px;
+	float: left;
+	border: 1px solid #20C188;
+	margin: 9px 0;
+	background: #20C188;
+	margin-left: 10%;
+	border-radius:0.0em;
+	text-align: center;
+}
+
+#optionsearch{
+	width: 20%;
+	height: 30px;
+	margin-left: 40%;
+	margin-top: 3%;
+}
+
+#optionsearch a{
+	width: 30%;
+	float: left;
+	background: #20C188;
+	border-radius:0.0em;
+	text-align: center;
+    padding: 14px 20px;
+}
+
+#optionsearch a:hover{
+	background: #227F56;
+}
+
+hr{
+	height: 2px;
+	background: #20C188;
+	width: 100%;
+}
+
+#workshop{
+	display: none;
+}
+
 #iniciar a{
 	text-decoration: none;
 	margin-left: 5%;
 	margin-top: 20px;
+}
+
+.result{
+	width: 22%;
+	height: 174px;
+	margin: 1%;
+	float: left;
+	border: black 5px double;
+}
+
+#view{
+	width: 100%;
+	height: 700px;
+	margin-top: 2%;
+}
+
+#search{
+	height:  100px;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 3%;
 }
 
 #logo{
@@ -58,7 +133,8 @@ header{
 }
 
 .buttons:hover{
-	background: #918D79;
+	background: #736830;
+	color: black;
 }
 
 /*-----------------------------------Main Menu---------------------------------------*/

@@ -6,6 +6,17 @@
 		<meta name="descripcion" content="mecanica costa rica">
 		<title>Mechanic Network</title>
 		<link rel="stylesheet" href="style/indexstyle.css">
+		<script type="text/javascript">
+			function taller(){
+				document.getElementById('workshop').style.display = 'block';
+				document.getElementById('product').style.display = 'none';
+			}
+
+			function producto(){
+				document.getElementById('workshop').style.display = 'none';
+				document.getElementById('product').style.display = 'block';
+			}
+		</script>
 	</head>
 	<body>
 		<header>
@@ -29,7 +40,58 @@
 				<a class="buttons" href="login.html">Cerrar sesión</a>
 			</section>
 		</header>
-		
+		<section id = "optionsearch">
+			<a class="buttons" onclick="producto()">Productos</a>
+			<a class="buttons" onclick="taller()">Talleres</a>
+		</section>
+		<section id = "search">
+			<br>
+			<hr>
+			<br>
+			<input id = "workshop" type="text" name="keyword" placeholder = "Lugar" required>
+			<input id="product" type="text" name="keyword" placeholder = "Nombre a buscar" required>
+			<a class="buttons">Buscar</a>
+		</section>		
+		<section id = "view">
+			 <hr>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <div class = "result">
+			 	
+			 </div>
+			 <hr>
+		</section>
 		<footer>
 				<p><center>Elaborado por Vladimir Matarrita<br>©Todos los derechos de autor reservados. 2017</center></p>
 		</footer>
