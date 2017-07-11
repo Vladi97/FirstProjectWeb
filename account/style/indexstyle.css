@@ -11,6 +11,36 @@ header{
 	background: #242020;
 }
 
+.result:hover .infodiv{
+	display: block;
+	margin-bottom: 10%;
+	margin: 3%;
+}
+
+.result:hover img{
+	display: none;
+}
+
+.result:hover{
+	background: #3C4843;
+}
+
+.result img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.infodiv{
+	display: none;
+	height: 88%;
+	text-align: justify;
+	width: 90%;
+	position: relative;
+	color: #fff;
+	background:#3C4843;
+}
+
 #iniciar{
 	width: 20%;
 	height: 65px;
