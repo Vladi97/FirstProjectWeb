@@ -7,11 +7,9 @@
 		<title>Mechanic Network</title>
 		<link rel="stylesheet" href="style/style.css">
 		<script>
-               $("#logo").css('opacity','0');
-		       $("#select_logo").click(function(e){
-			   e.preventDefault();
-			   $("#logo").trigger('click');
-			});
+              function go(){
+              	location.href = "index.html"
+              }
 		</script>
 	</head>
 	<body>
@@ -33,7 +31,7 @@
 				    <br>
 				    <input type="password" name="pswVer" placeholder = "Verificar contraseña" required>
 				    <br>
-				    <button id="select_logo" type="submit">Guardar</button>
+				    <button id="select_logo" type="submit" onclick="go()">Guardar</button>
 				</section>
 		</section>
 	</body>
