@@ -30,8 +30,8 @@ header h1{
 #cuerpo{
 	height: 480px;;
 	margin-top: 20px;
-	margin-left: 15%;
-	width: 70%;
+	margin-left: 32%;
+	width: 25%;
 	box-shadow: 5px 5px 30px #6A6E6F;
 	border-radius: 5px;
 	border: solid #4B4B4B;
@@ -72,6 +72,33 @@ hr{
 	height: 2px;
 }
 
+#datos hr{
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+#messages{
+	margin: 2%;
+	display: none;
+	width: 94%;
+	height: 94%;
+}
+
+.chat{
+	height: 18%;
+}
+
+#messages label{
+	height: 25%;
+	line-height: 25%;
+	width: 100%;
+
+}
+
+.chat:hover{
+	background: gray;
+}
+
 #cuerpo h3{
 	margin-top: 20px;
 	font-family: "Verdana";
@@ -84,10 +111,6 @@ hr{
 	height: 300px;
 	background: #fff;
 	text-align: center;
-}
-
-#datos label{
-	margin-left: 15px;
 }
 
 #datos input[type="checkbox"]{
