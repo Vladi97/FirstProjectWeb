@@ -18,9 +18,13 @@
 				<h1>Mechanic Network</h1>
 		</header>
 		<section id = "cuerpo">
-				<h3><center>Registro</center></h3>
+				<h3><center>Actualizar</center></h3>
 				<hr>
 				<section id = "datos">
+					<form method="post" action="subir_archivo.php" enctype="multipart/form-data">
+						<label>Foto:</label>
+					    <input type="file" name="archivo" value="" ="Foto" /><br />
+					</form>
 				    <input type="text" name="name" placeholder = "Nombre" required>
 				    <br>
 				    <input type="text" name="apellido" placeholder = "Apellidos" required>

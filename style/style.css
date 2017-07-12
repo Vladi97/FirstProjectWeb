@@ -48,6 +48,39 @@ header{
 	font-size: 26px;
 }
 
+#about{
+	width: 100%;
+	height: 240px;
+}
+
+#about div{
+	width: 50%;
+	margin-top: 25px;
+	margin-left: 25%;
+	height: 220px;
+	text-align: justify;
+	line-height: 20px;
+}
+#about p{
+	margin-left: 20%;
+}
+
+#contact{
+	width: 100%;
+	height: 150px;
+	margin-top: 1%;
+	text-align: justify;
+}
+
+#text{
+	width: 50%;
+	margin-left: 25%;
+}
+
+#contact label{
+	margin-left: 20%;
+}
+
 /*-----------------------------------Buttons------------------------------------------*/
 .buttons{
 	background-color: #868063;
